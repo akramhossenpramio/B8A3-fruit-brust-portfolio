@@ -27,18 +27,13 @@
             top: 130px;
 
         }
-        
-        
-        
         .contrary{
             text-align: center;
-
         }
         .section h2{
                text-align: center;
                font-size: 48px;
                font-weight: 800;
-              
         }
         .choose{
             display: flex;
@@ -54,9 +49,9 @@
         }
         .choose img{
             width: 464px;
-height: 414px;
-position: relative;
-top: 20px;
+            height: 414px;
+            position: relative;
+            top: 20px;
         }
         .container{
         width: 50%;
@@ -103,8 +98,13 @@ top: 20px;
     .fourth{
         margin-left: 40px;
     }
+    .nav-related{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
 
-        .last-section-container{
+ .last-section-container{
     background: #0B0223;
     color: #FFF;
     margin-top: 300px;
@@ -123,14 +123,16 @@ top: 20px;
          color: rgba(18, 18, 18, 0.60);
          font-size: 16px;
          font-weight: 500;
-    }
-        
+    } 
         .deal-section{
             display: flex;
             justify-content: space-between;
             margin-top: 20px;
             margin-bottom: 20px;
         }
+        .review{
+        display: flex;
+    }
 .last-section-contain{
     display: flex;
     gap: 20px;
@@ -185,19 +187,14 @@ top: 20px;
 </head>
 <body>
     <header>
-         <nav>
-            <div class="navbar bg-base-100">
+         <nav class="mx-auto bg-red-200">
+            <div class="navbar bg-red">
                 <div class="navbar-start">
-                  <div class="dropdown">
-                    <label tabindex="0" class="btn btn-ghost btn-circle">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
-                    </label>
-                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                      <li><a>Home</a></li>
-                      <li><a>About Us</a></li>
-                      <li><a>Shop</a></li>
-                      <li><a>All Fruits</a></li>
-                    </ul>
+                  <div class="nav-related">
+                    <a href="">Home</a>
+                  <a href="">About Us</a>
+                  <a href="">Shop</a>
+                  <a href="">All Fruits</a>
                   </div>
                 </div>
                 <div class="navbar-center">
@@ -286,11 +283,6 @@ top: 20px;
             </div>
          </div>
 </div>
-<style>
-    .review{
-        display: flex;
-    }
-</style>
 
 <div class="review">
     <div class="card w-96 bg-base-100 shadow-xl">
@@ -300,8 +292,12 @@ top: 20px;
         <div class="card-body items-center text-center">
           <h2 class="card-title">12.90$ - 18.85$</h2>
           <p>Apples</p>
-          <div class="card-actions">
-            <button class="btn btn-primary">Buy Now</button>
+          <div class="rating">
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
           </div>
         </div>
       </div>
@@ -312,8 +308,12 @@ top: 20px;
         <div class="card-body items-center text-center">
           <h2 class="card-title">12.90$ - 18.85$</h2>
           <p>Orange</p>
-          <div class="card-actions">
-            <button class="btn btn-primary">Buy Now</button>
+          <div class="rating">
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
           </div>
         </div>
       </div>
@@ -324,8 +324,12 @@ top: 20px;
         <div class="card-body items-center text-center">
           <h2 class="card-title">12.90$ - 18.85$</h2>
           <p>Red Dragon</p>
-          <div class="card-actions">
-            <button class="btn btn-primary">Buy Now</button>
+          <div class="rating">
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
           </div>
         </div>
       </div>
@@ -336,8 +340,12 @@ top: 20px;
         <div class="card-body items-center text-center">
           <h2 class="card-title">12.90$ - 18.85$</h2>
           <p>Banana</p>
-          <div class="card-actions">
-            <button class="btn btn-primary">Shop All</button>
+          <div class="rating">
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
           </div>
         </div>
       </div>
